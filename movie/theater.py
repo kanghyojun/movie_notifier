@@ -57,5 +57,8 @@ class CGV(MovieTheater):
             frag
         ))
 
+    def get_raw_response(self, date: datetime.date) -> typing.Any:
+        pass
+
     def get_movies(self, date: datetime.date) -> typing.List[Movie]:
         return []
